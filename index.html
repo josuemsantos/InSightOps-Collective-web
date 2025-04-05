@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
     <title>InSightOps Collective</title>
 </head>
 <body>
@@ -57,6 +59,62 @@
         </div>
         <img src="./img/cuts/header-divition.svg" alt="header-divition" />
     </header>
+    <!-- Proyectos recientes -->
+    <section class="container px-4">
+      <h2 class="pb-2 border-bottom">Proyectos recientes</h2>
+      <!--Proyecto reciente 1-->
+      <div class="album py-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto reciente 2-->
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto reciente 2-->
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- Conocimientos -->
     <section class="container px-4" id="icon-grid">
         <h2 class="pb-2 border-bottom">Conocimientos</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
@@ -119,13 +177,119 @@
           </div>
     </section>
     <!-- Carrusel -->
+     <section class="carousel slide" id="carousel-insightops" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/carousel/Carousel-1.jpg" alt="automatiation" class="w-100" />
+          <div class="carousel-caption">
+            <h5 class="text-uppercase">Pablito automatizando Grafana Siebel</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla leo non massa vestibulum, vitae venenatis lacus maximus.</p>
+            <button class="btn btn-light px-4 text-capitalize">Ver Proyectos</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/carousel/Carousel-2.jpg" alt="servers" class="w-100" />
+          <div class="carousel-caption">
+            <h5 class="text-uppercase">Análisis de sistema operativo y servidores</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla leo non massa vestibulum, vitae venenatis lacus maximus.</p>
+            <button class="btn btn-light px-4 text-capitalize">Ver Proyectos</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/carousel/Carousel-3.jpg" alt="Analitics" class="w-100" />
+          <div class="carousel-caption">
+            <h5 class="text-uppercase">Debuging y análisis de logs</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla leo non massa vestibulum, vitae venenatis lacus maximus.</p>
+            <button class="btn btn-light px-4 text-capitalize">Ver Proyectos</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-insightops" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-insightops" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+     </section>
+    
     <!--Algunas de nuestras experiencias-->
-    <!--Servicios Principales-->
+    <div class="container px-4 py-5">
+      <!-- Three columns of text below the carousel -->
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <img src="./img/topics/topic-1.jpg" alt="topic-1" class="rounded-circle" width="140" height="140" />
+          <h2>Oracle Apex Views</h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p><a class="btn btn-info text-white" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="./img/topics/topic-2.jpg" alt="topic-2" class="rounded-circle" width="140" height="140" />
+          <h2>GitLab using</h2>
+          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+          <p><a class="btn btn-info text-white" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="./img/topics/topic-3.jpg" alt="topic-3" class="rounded-circle" width="140" height="140" />
+          <h2>Oracle Sales Cloud</h2>
+          <p>And lastly this, the third column of representative placeholder content.</p>
+          <p><a class="btn btn-info text-white" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+    
     <!--footer info de contactos y servicios-->
-
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <nav class="row">
+          <a href="#" class="col-3 text-reset d-flex align-items-center">
+            <img src="./img/InSightOps.svg" alt="InSightOps" class="img-logo" />
+            InSightOps Collective
+          </a>
+          <!-- Links -->
+           <ul class="col-3 list-unstyled">
+            <li class="font-weight-bold">Inicio</li>
+            <li><a href="#" class="text-reset">link 1</a></li>
+            <li><a href="#" class="text-reset">link 2</a></li>
+            <li><a href="#" class="text-reset">link 3</a></li>
+           </ul>
+           <!-- Menu 2 -->
+           <ul class="col-3 list-unstyled">
+            <li class="font-weight-bold">Quick Links</li>
+            <li><a href="#" class="text-reset">link 1</a></li>
+            <li><a href="#" class="text-reset">link 2</a></li>
+            <li><a href="#" class="text-reset">link 3</a></li>
+           </ul>
+           <!-- Social Media -->
+           <ul class="col-3 list-unstyled">
+            <li class="font-weight-bold">Social network</li>
+            <li class="d-flex justify-content-between">
+              <a href="#" class="text-reset">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="text-reset">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+              <a href="#" class="text-reset">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="#" class="text-reset">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="#" class="text-reset">
+                <i class="bi bi-youtube"></i>
+              </a>
+              <a href="#" class="text-reset">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+            </li>
+           </ul>
+        </nav>
+      </div>
+    </footer>
     <script src="./js/bootstrap.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </body>
 </html>
